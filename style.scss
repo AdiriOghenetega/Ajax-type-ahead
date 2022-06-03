@@ -1,0 +1,40 @@
+// :root{
+//     $width : 100%;
+//     $color : yellow ;
+// }
+
+html{
+    background-image: url('./ryan-shumway--n5F3fH0lIY-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+    .containables{
+        width: 40%;
+        background-color: white;
+        height: auto;
+
+        input{
+            width: 100%;
+            height: 3em;
+            border-radius: 1px;
+        }
+
+        
+    }
+    .suggestions{
+        display: flex;
+        flex-direction: column;
+        width: 20em;
+        border-radius: 31px;
+    }
+}
+.hl{
+    background-color: gold;
+    text-decoration: underline;
+}
+.pop{
+    position: absolute;
+    right: 5%;
+
+}
